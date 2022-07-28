@@ -1,0 +1,90 @@
+/* Font link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* nav section css */
+
+.background-gradient {
+    background-image: linear-gradient(90deg, #2937f0, #9f1ae2);
+}
+
+.text-blue {
+    color: #2937f0;
+}
+
+.p-color {
+    color: #F4F4F4;
+}
+
+
+/* slider section css */
+
+#overlay {
+    filter: brightness(50%);
+}
+
+
+/* explorer section css */
+
+.explore-bg {
+    background: #F4FAFD;
+}
+
+
+/* student section css */
+
+.student-name {
+    margin-top: -11px;
+}
+
+
+/* Responsive css */
+
+
+/* carousel section ccs */
+
+@media only screen and (min-width: 992px) {
+    .carousel-caption {
+        top: 40%;
+        bottom: auto;
+    }
+}
+
+
+/* Join section css */
+
+@media only screen and (max-width: 992px) {
+    .joining-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+/* feedback section */
+
+@media only screen and (max-width: 992px) {
+    .feedback-section {
+        gap: 12px;
+    }
+}
+
+
+/* card image CSS */
+
+@media only screen and (max-width: 767px) {
+    .card-image img {
+        width: 514px;
+    }
+}
+
+@media only screen and (min-width: 543px) and (max-width: 575px) {
+    .card-image img {
+        width: 550px;
+    }
+}
