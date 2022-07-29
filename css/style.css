@@ -54,6 +54,17 @@ body {
     }
 }
 
+@media only screen and (max-width: 465px) {
+    .carousel-caption {
+        top: -20px;
+        bottom: auto;
+    }
+    .carousel-font {
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
+
 
 /* Join section css */
 
